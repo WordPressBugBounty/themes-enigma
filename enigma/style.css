@@ -4,8 +4,8 @@ Theme URI:
 Author: vibhorp
 Author URI: https://infigosoftware.in/
 Description: Enigma  is an outstanding superfine creation from Infigo Software, Enigma has become one of the most popular superfine multipurpose responsive theme with WPMLlovers by many professionals for its amazing capabilities and great designs. Enigma is multi function free WordPress theme with responsive and flexible light-weighted WooCommerce theme built by using core WordPress functions (BOOTSTRAP CSS framework) that works on All leading web browsers weather its mobile device or any other this makes it fast, simple and easy to customize! It has a promising design and powerful features with page layouts and sidebar widget that let your websites easy to design. This theme can be used for different kinds of websites including business, blogging, portfolio, agency, landing page etc. Enigma has Filkr as a custom widget to showing up your Flickr Photos .Enigma provide you a platform for business template, awesome BOOTSTRAP Carousel slider for full CMS control option to match your logo & website, wide layout and many more.
-Version: 7.66
-Tested up to: 6.5
+Version: 7.67
+Tested up to: 6.6
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -3181,4 +3181,87 @@ ul li ul:hover {
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px !important; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about us css*/
+.layout_padding {
+    background:#ecf0f1; 
+    padding-top:90px;
+	padding-bottom:90px;
+	border-top:1px solid #DEE1E2;
+	border-bottom:1px solid #DEE1E2;
+}
+.about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about_section .img_container .img-box img {
+    width: 100%
+}
+
+.about_section .detail-box {
+    background-color: #fff;
+    padding: 45px 25px;  
+  
+    position: relative;
+    margin-left: -45px;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+
+
+.about_section .detail-box p {
+    margin-top: 15px;
+
+}
+
+.about_section .detail-box a {
+background:#31A3DD;
+color:#fff;
+    font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	padding: 10px 15px;
+	margin-bottom: 0;
+	font-size: 16px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 2px solid #31A3DD;
+	transition: all 0.4s ease;
+}
+
+.about_section .detail-box a:hover {
+        background-color: transparent;
+    border-color: #31A3DD;
+    color: #31A3DD;
+}
+
+@media screen and (max-width: 767px){.about_section .detail-box{
+
+ margin-left: 0px;
+}
+
 }

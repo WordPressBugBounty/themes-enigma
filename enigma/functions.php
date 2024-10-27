@@ -82,6 +82,10 @@ function enigma_head_setup()
     add_theme_support('wp-block-styles');
     add_theme_support('align-wide');
     add_theme_support('customize-selective-refresh-widgets');
+	
+	
+	//About-Us Post Thumb
+		add_image_size('guardian_about_post_thumb',1140, 380,true);
 
     /* Add editor style. */
     add_theme_support('editor-styles');

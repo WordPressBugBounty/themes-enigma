@@ -13,6 +13,12 @@ if ( enigma_theme_is_companion_active() ) {
             }
         }
     } else {
+		
+		
+	$about_home = absint(get_theme_mod( 'about_home','1' )) ;
+	if ( $about_home == "1" ) {
+	do_action('wl_companion_aboutsection_guardian');
+	}
 
         get_template_part('sections/home', 'services');
         get_template_part('sections/home', 'portfolio');
@@ -23,6 +29,8 @@ if ( enigma_theme_is_companion_active() ) {
         if ($editor_home == 1) {
             get_template_part('sections/home', 'editor');
         }
+		
+
 
         $blog_home = absint(get_theme_mod('blog_home', 1));
         if ( $blog_home == 1) {
