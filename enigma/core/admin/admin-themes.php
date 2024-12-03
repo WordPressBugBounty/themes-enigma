@@ -11,7 +11,7 @@ function enigma_admin_info(){
 	// CSS
 	wp_enqueue_style('bootstrap',  get_template_directory_uri() .'/core/admin/bootstrap.css');
 	wp_enqueue_style('admin',  get_template_directory_uri() .'/core/admin/admin-themes.css');
-	wp_enqueue_style( 'font-awesome-581', get_template_directory_uri(). '/css/fontawesome6.6.0/css/all.css');
+	wp_enqueue_style( 'fontawesome6.7.1', get_template_directory_uri(). '/css/fontawesome6.7.1/css/all.css');
 	wp_enqueue_style('snow-css',  get_template_directory_uri() .'/core/admin/snow.css');
 	
 	//JS
@@ -31,7 +31,7 @@ if (!function_exists('enigma_display_theme_info_page')) {
 
 <div class="p-header-bg">
 <div class="snow"></div>
-	<img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/" class="img-responsive" style="width:100%;height:auto;" alt=""/>
+	<img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/christmas-offer.jpg" class="img-responsive" style="width:100%;height:auto;" alt=""/>
 </div>
 
     <div class="col-md-12 settings">

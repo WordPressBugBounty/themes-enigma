@@ -2,8 +2,8 @@
 Contributors: vibhorp
 Tags: two-columns,  four-columns, custom-menu, right-sidebar, custom-background, featured-image-header, theme-options, threaded-comments, featured-images, flexible-header, translation-ready  , e-commerce , education , entertainment
 Requires at least: 7.4
-Tested up to: 6.6
-Stable tag: 7.67
+Tested up to: 6.7
+Stable tag: 7.68
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,11 @@ Enigma is an outstanding superfine creation from Vibhor Purandare, Enigma has be
 Please drop your issues here <a href="https://wordpress.org/support/theme/enigma"> we'll try to triage issues reported on the theme forum, you'll get a faster response.
 
 == Changelog ==
+
+* 7.68 *
+- Enable Footer Widget Area Update
+
+
 * 7.67 *
 - About Us Section Update
 -fontawesome6.6.0 set Update
