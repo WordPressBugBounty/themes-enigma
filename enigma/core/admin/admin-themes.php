@@ -11,7 +11,7 @@ function enigma_admin_info(){
 	// CSS
 	wp_enqueue_style('bootstrap',  get_template_directory_uri() .'/core/admin/bootstrap.css');
 	wp_enqueue_style('admin',  get_template_directory_uri() .'/core/admin/admin-themes.css');
-	wp_enqueue_style( 'fontawesome6.7.1', get_template_directory_uri(). '/css/fontawesome6.7.1/css/all.css');
+	wp_enqueue_style( 'fontawesome6.7.2', get_template_directory_uri(). '/css/fontawesome6.7.2/css/all.css');
 	wp_enqueue_style('snow-css',  get_template_directory_uri() .'/core/admin/snow.css');
 	
 	//JS

@@ -21,7 +21,7 @@ function enigma_scripts() {
 
         /* Font awesome library */
       
-        wp_enqueue_style( 'fontawesome6.7.1', get_template_directory_uri() . '/css/fontawesome6.7.1/css/all.min.css' );
+        wp_enqueue_style( 'fontawesome6.7.2', get_template_directory_uri() . '/css/fontawesome6.7.2/css/all.min.css' );
         wp_enqueue_style('enigma-style-sheet', get_stylesheet_uri());
 
         /* Web Fonts */		
