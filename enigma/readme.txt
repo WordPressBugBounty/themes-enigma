@@ -2,8 +2,8 @@
 Contributors: vibhorp
 Tags: two-columns,  four-columns, custom-menu, right-sidebar, custom-background, featured-image-header, theme-options, threaded-comments, featured-images, flexible-header, translation-ready  , e-commerce , education , entertainment
 Requires at least: 7.4
-Tested up to: 6.7
-Stable tag: 7.69
+Tested up to: 6.8
+Stable tag: 7.71
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
