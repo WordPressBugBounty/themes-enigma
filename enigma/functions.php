@@ -61,7 +61,7 @@ function enigma_head_setup()
      * If you're building a theme based on Theme Palace, use a find and replace
      * to change 'enigma' to the name of your theme in all the template files.
      */
-    load_theme_textdomain( 'enigma' );
+    
 
     add_theme_support('post-thumbnails'); //supports featured image
     // This theme uses wp_nav_menu() in one location.
@@ -108,6 +108,11 @@ function enigma_head_setup()
     add_editor_style('css/editor-style.css');
 }
 
+function enigma_load_theme_textdomain() {
+    load_theme_textdomain( 'enigma', get_template_directory() . '/lang' );
+    // if your theme uses a different text domain, change 'enigma' accordingly
+}
+add_action( 'after_setup_theme', 'enigma_load_theme_textdomain' );
 // Read more tag to formatting in blog page
 function enigma_content_more($more)
 {
